@@ -1,0 +1,15 @@
+{
+  "name": "@drik98/wedding-page",
+  "version": "1.0.0",
+  "description": "A simple page for our wedding.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/drik98/wedding-page.git"
+  },
+  "author": "Hendrik Schmitz",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/drik98/wedding-page/issues"
+  },
+  "homepage": "https://github.com/drik98/wedding-page#readme"
+}
