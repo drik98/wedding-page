@@ -828,6 +828,13 @@ h3 {
   width: 300px;
 }
 
+.flowers-seperator.mirrored {
+  -moz-transform: scaleX(-1);
+  -o-transform: scaleX(-1);
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+
 /* line 90, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/_slider.scss */
 .slider_area_inner .slider_text .text_inner {
   position: relative;
