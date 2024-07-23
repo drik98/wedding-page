@@ -14,55 +14,7 @@
   </div>
   <!--/ slider_area -->
 
-  <!-- wedding_countdown -->
-  <div class="weeding_countdown_area">
-    <div class="flowaers_top d-none d-lg-block">
-      <img src="~/assets/img/flowers.png" alt="" />
-    </div>
-    <div class="flowaers_bottom d-none d-lg-block">
-      <img src="~/assets/img/flowers.png" alt="" />
-    </div>
-    <div class="container">
-      <div class="row">
-        <div class="col-xl-12">
-          <div class="section_title text-center">
-            <img
-              src="~/assets/img/flowers_single.png"
-              alt=""
-              class="flowers-seperator"
-            />
-            <span>28. September 2024</span>
-            <h3>Der Countdown</h3>
-          </div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-xl-12">
-          <div id="clock" class="countdown_area counter_bg">
-            <div class="countdown_wrap d-flex">
-              <div class="single_countdown">
-                <h3>{{ countdown.days }}</h3>
-                <span>Tage</span>
-              </div>
-              <div class="single_countdown">
-                <h3>{{ countdown.hours }}</h3>
-                <span>Stunden</span>
-              </div>
-              <div class="single_countdown">
-                <h3>{{ countdown.minutes }}</h3>
-                <span>Minuten</span>
-              </div>
-              <div class="single_countdown">
-                <h3>{{ countdown.seconds }}</h3>
-                <span>Sekunden</span>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!--/ wedding_countdown -->
+  <WeddingCountdown :date="weddingDate"/>
 
   <!-- our_love-story -->
   <div class="love_story_area">
@@ -1973,42 +1925,5 @@
 </template>
 
 <script setup lang="ts">
-const remainingTime = ref(0);
 const weddingDate = ref(new Date("2024-09-28T12:00"));
-
-onMounted(() => {
-  setInterval(
-    () =>
-      (remainingTime.value =
-        weddingDate.value.getTime() - new Date().getTime()),
-    1000
-  );
-});
-
-const countdown = computed(() => {
-  // If the difference is negative, set all values to 0
-  let diffMs = remainingTime.value < 0 ? 0 : remainingTime.value;
-  
-  // Calculate the difference in full days
-  const diffDays = Math.floor(diffMs / (1000 * 60 * 60 * 24));
-  diffMs -= diffDays * (1000 * 60 * 60 * 24);
-
-  // Calculate the difference in hours
-  const diffHours = Math.floor(diffMs / (1000 * 60 * 60));
-  diffMs -= diffHours * (1000 * 60 * 60);
-
-  // Calculate the difference in minutes
-  const diffMinutes = Math.floor(diffMs / (1000 * 60));
-  diffMs -= diffMinutes * (1000 * 60);
-
-  // Calculate the difference in seconds
-  const diffSeconds = Math.floor(diffMs / 1000);
-
-  return {
-    days: diffDays,
-    hours: diffHours,
-    minutes: diffMinutes,
-    seconds: diffSeconds,
-  };
-});
 </script>
