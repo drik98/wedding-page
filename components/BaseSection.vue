@@ -1,0 +1,60 @@
+<template>
+  <div class="base_section">
+    <div class="flowaers_top d-none d-lg-block">
+      <img src="~/assets/img/flowers.png" alt="" />
+    </div>
+    <div class="flowaers_bottom d-none d-lg-block">
+      <img src="~/assets/img/flowers.png" alt="" />
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-xl-12">
+          <div class="section_title text-center">
+            <img
+              src="~/assets/img/flowers_single.png"
+              alt=""
+              class="flowers-seperator"
+            />
+            <span><slot name="sub-title"></slot></span>
+            <h3><slot name="title"></slot></h3>
+          </div>
+        </div>
+      </div>
+      <slot></slot>
+    </div>
+  </div>
+</template>
+
+<style lang="scss" scoped>
+@import "~/assets/scss/responsive.scss";
+@import "~/assets/scss/varriable.scss";
+
+.base_section {
+  padding-top: 150px;
+  padding-bottom: 75px;
+  position: relative;
+  z-index: 9;
+  .flowaers_top,
+  .flowaers_bottom {
+    img {
+      width: 200px;
+    }
+  }
+  .flowaers_top {
+    position: absolute;
+    top: 102px;
+    right: -100px;
+    transform: rotate(-10deg);
+  }
+  .flowaers_bottom {
+    position: absolute;
+    left: -100px;
+    bottom: -200px;
+    transform: rotate(10deg);
+  }
+  @media #{$mobile_device} {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+}
+</style>
