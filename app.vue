@@ -5,7 +5,7 @@
       <div class="slider_text text-center">
         <img src="~/assets/img/flowers_circle.png" alt="" class="flowers" />
         <div class="text_inner">
-          <h4>28. September 2024</h4>
+          <h4>{{ formattedWeddingDate }}</h4>
           <h3>Anna & Hendrik</h3>
           <span>heiraten!</span>
         </div>
@@ -14,7 +14,7 @@
   </div>
   <!--/ slider_area -->
 
-  <WeddingCountdown :date="weddingDate"/>
+  <WeddingCountdown :date="weddingDate" :formatted-date="formattedWeddingDate" />
 
   <!-- our_love-story -->
   <div class="love_story_area">
@@ -1926,4 +1926,11 @@
 
 <script setup lang="ts">
 const weddingDate = ref(new Date("2024-09-28T12:00"));
+const formattedWeddingDate = computed(() =>
+  new Intl.DateTimeFormat("de-DE", {
+    year: "numeric",
+    month: "long",
+    day: "numeric",
+  }).format(weddingDate.value)
+);
 </script>

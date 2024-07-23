@@ -15,7 +15,7 @@
               alt=""
               class="flowers-seperator"
             />
-            <span>28. September 2024</span>
+            <span>{{ formattedDate }}</span>
             <h3>Der Countdown</h3>
           </div>
         </div>
@@ -51,6 +51,7 @@
 <script setup lang="ts">
 const props = defineProps<{
   date: Date;
+  formattedDate: String;
 }>();
 
 const remainingTime = ref(props.date.getTime() - new Date().getTime());
