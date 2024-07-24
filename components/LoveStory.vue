@@ -130,7 +130,7 @@
   }
   h3 {
     font-size: 36px;
-    color: #c78665;
+    color: #e0c9a9;
     @media #{$mobile_device} {
       font-size: 30px;
     }
@@ -151,13 +151,13 @@
           height: 35px;
           @include border-radius(50%);
           background: #f9f3ef;
-          color: #c78665;
+          color: #e0c9a9;
           display: inline-block;
           text-align: center;
           line-height: 35px;
           margin: 0 3px;
           &:hover {
-            background: #c78665;
+            background: #e0c9a9;
             color: #fff;
           }
         }
@@ -177,7 +177,7 @@
       position: absolute;
       height: 40px;
       width: 1px;
-      background: #c78665;
+      background: #e0c9a9;
       left: 50%;
       // @include transform(translateY(-50%));;
       content: "";
@@ -186,7 +186,7 @@
     }
     h3 {
       font-size: 24px;
-      color: #c78665;
+      color: #e0c9a9;
       font-weight: 400;
     }
     p {

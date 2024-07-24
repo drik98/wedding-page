@@ -45,7 +45,7 @@
 }
 .boxed_btn3{
     cursor: pointer;
-    background: #C78665;
+    background: #e0c9a9;
     padding: 9px 26px;
     margin-bottom: 0;
     font-size: 20px; 
@@ -54,7 +54,7 @@
     display: inline-block;
     &:hover{
         background: #FAF0F0;
-        color:#C78665;
+        color:#e0c9a9;
     }
     @media #{$tablet_device} {
         padding: 9px 16px;

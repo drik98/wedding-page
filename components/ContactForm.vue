@@ -106,7 +106,7 @@
             h3{
                 text-align: center;
                 font-size: 36px;
-                color:#C78665;
+                color:#e0c9a9;
                 @media #{$mobile_device} {
                     font-size: 25px;
                 }
