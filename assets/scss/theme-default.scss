@@ -145,54 +145,6 @@ h3{
 
 }
 
-.overlay{
-	position: relative;
-	z-index: 0;
-}
-.overlay::before{
-	position: absolute;
-	content: "";
-	background-color: rgb(2, 12, 38);
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	z-index: -1;
-	opacity: 0.851;
-}
-
-.overlay2{
-	position: relative;
-	z-index: 0;
-}
-.overlay2::before{
-	position: absolute;
-	content: "";
-	background-color: #fff;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	z-index: -1;
-	opacity: 0.2;
-}
-
-
-.overlay3{
-	position: relative;
-	z-index: 0;
-}
-.overlay3::before{
-	position: absolute;
-	content: "";
-	background-color: #fff;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	z-index: -1;
-	opacity: 0.1;
-}
 .section-padding{
 	padding-top: 120px;
 	padding-bottom: 120px;

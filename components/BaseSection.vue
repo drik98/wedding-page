@@ -29,6 +29,17 @@
 @import "~/assets/scss/responsive.scss";
 @import "~/assets/scss/varriable.scss";
 
+.flowers-seperator {
+  width: 300px;
+}
+
+.flowers-seperator.mirrored {
+  -moz-transform: scaleX(-1);
+  -o-transform: scaleX(-1);
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+
 .base_section {
   padding-top: 150px;
   padding-bottom: 75px;

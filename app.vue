@@ -1,18 +1,5 @@
 <template>
-  <!-- slider_area -->
-  <div class="slider_area">
-    <div class="slider_area_inner slider_bg_1 overlay2">
-      <div class="slider_text text-center">
-        <img src="~/assets/img/flowers_circle.png" alt="" class="flowers" />
-        <div class="text_inner">
-          <h4>{{ formattedWeddingDate }}</h4>
-          <h3>Anna & Hendrik</h3>
-          <span>heiraten!</span>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!--/ slider_area -->
+  <WeddingBanner :formatted-date="formattedWeddingDate"/>
 
   <WeddingCountdown
     :date="weddingDate"
@@ -218,3 +205,17 @@ const formattedWeddingDate = computed(() =>
   }).format(weddingDate.value)
 );
 </script>
+
+<style lang="scss" scoped>
+// todo: remove me when everything is migrated to components
+.flowers-seperator {
+  width: 300px;
+}
+
+.flowers-seperator.mirrored {
+  -moz-transform: scaleX(-1);
+  -o-transform: scaleX(-1);
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+</style>
