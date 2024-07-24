@@ -9,19 +9,27 @@
         <div id="clock" class="countdown_area counter_bg">
           <div class="countdown_wrap d-flex">
             <div class="single_countdown">
-              <h3>{{ countdown.days }}</h3>
+              <ClientOnly>
+                <h3>{{ countdown.days }}</h3>
+              </ClientOnly>
               <span>Tage</span>
             </div>
             <div class="single_countdown">
-              <h3>{{ countdown.hours }}</h3>
+              <ClientOnly>
+                <h3>{{ countdown.hours }}</h3>
+              </ClientOnly>
               <span>Stunden</span>
             </div>
             <div class="single_countdown">
-              <h3>{{ countdown.minutes }}</h3>
+              <ClientOnly>
+                <h3>{{ countdown.minutes }}</h3>
+              </ClientOnly>
               <span>Minuten</span>
             </div>
             <div class="single_countdown">
-              <h3>{{ countdown.seconds }}</h3>
+              <ClientOnly>
+                <h3>{{ countdown.seconds }}</h3>
+              </ClientOnly>
               <span>Sekunden</span>
             </div>
           </div>
