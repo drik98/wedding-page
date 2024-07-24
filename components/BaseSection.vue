@@ -1,11 +1,13 @@
 <template>
   <div class="base_section">
-    <div class="flowaers_top d-none d-lg-block">
-      <img src="~/assets/img/flowers.png" alt="" />
-    </div>
-    <div class="flowaers_bottom d-none d-lg-block">
-      <img src="~/assets/img/flowers.png" alt="" />
-    </div>
+    <template v-if="!hideDecoration">
+      <div class="flowaers_top d-none d-lg-block">
+        <img src="~/assets/img/flowers.png" alt="" />
+      </div>
+      <div class="flowaers_bottom d-none d-lg-block">
+        <img src="~/assets/img/flowers.png" alt="" />
+      </div>
+    </template>
     <div class="container">
       <div class="row">
         <div class="col-xl-12">
@@ -24,6 +26,12 @@
     </div>
   </div>
 </template>
+
+<script setup lang="ts">
+const props = defineProps<{
+  hideDecoration?: Boolean;
+}>();
+</script>
 
 <style lang="scss" scoped>
 @import "~/assets/scss/responsive.scss";
