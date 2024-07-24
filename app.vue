@@ -135,7 +135,7 @@
 </template>
 
 <script setup lang="ts">
-const weddingDate = ref(new Date("2024-09-28T12:00"));
+const weddingDate = ref(new Date("2024-09-28T12:00+02:00"));
 const formattedWeddingDate = computed(() =>
   new Intl.DateTimeFormat("de-DE", {
     year: "numeric",

@@ -3,94 +3,36 @@
     <template #title>Programm</template>
     <div class="row">
       <div class="col-xl-4 col-lg-4">
-        <div class="single_program program_bg_1 text-center">
-          <div class="program_inner">
-            <span> 16.00 </span>
-            <h3>Wedding Ceremony</h3>
-            <p>
-              Many variations of passages of Lorem Ipsum available, but the
-              majority have suffered alteration in some content of a page when
-              looking at its layout.
-            </p>
-            <img src="~/assets/img/program_details/ornaments.png" alt="" />
-          </div>
-        </div>
+        <ProgramCard 
+          background-image="/img/program_details/1.png"
+          title="Standesamtliche Hochzeit"
+          description="Die standesamtliche Hochzeit findet im Aachener Rathaus im weißen Saal statt. Auch wenn nicht für jeden Platz ist, freuen wir uns über alle, die zum Anstoßen auf dem Marktplatz vorbei kommen."
+          :time="new Date('2024-09-28T12:00+02:00')"
+        />
       </div>
       <div class="col-xl-4 col-lg-4">
-        <div class="single_program program_bg_2 text-center">
-          <div class="program_inner">
-            <span> 20.00 </span>
-            <h3>Lunch Time</h3>
-            <p>
-              Many variations of passages of Lorem Ipsum available, but the
-              majority have suffered alteration in some content of a page when
-              looking at its layout.
-            </p>
-            <img src="~/assets/img/program_details/ornaments.png" alt="" />
-          </div>
-        </div>
+        <ProgramCard 
+          background-image="/img/program_details/2.png"
+          title="Freie Trauung"
+          description="Die freie Trauung ist unser absolutes Highlight. Sie findet an der Location &quot;La Seigneurie&quot; in Raeren statt. Wir freuen uns darauf vor allen unseren Freunden und Familie uns unsere Eheversprechen zu geben."
+          :time="new Date('2024-09-28T16:30+02:00')"
+        />
       </div>
       <div class="col-xl-4 col-lg-4">
-        <div class="single_program program_bg_3 text-center">
-          <div class="program_inner">
-            <span> 22.00 </span>
-            <h3>WeParty Time</h3>
-            <p>
-              Many variations of passages of Lorem Ipsum available, but the
-              majority have suffered alteration in some content of a page when
-              looking at its layout.
-            </p>
-            <img src="~/assets/img/program_details/ornaments.png" alt="" />
-          </div>
-        </div>
+        <ProgramCard 
+          background-image="/img/program_details/3.png"
+          title="Party"
+          description="Die Party wird eingeleitet durch den traditionellen Hochzeitstanz durch das Brautpaar. Im Anschluss darf jeder dazu kommen und die Party so richtig losgehen lasen!"
+          :time="new Date('2024-09-28T21:00+02:00')"
+        />
       </div>
     </div>
   </BaseSection>
 </template>
 
 <style lang="scss" scoped>
-@import "~/assets/scss/varriable.scss";
-
-.program_bg_1 {
-  background-image: url(~/assets/img/program_details/1.png);
-}
-.program_bg_2 {
-  background-image: url(~/assets/img/program_details/2.png);
-}
-.program_bg_3 {
-  background-image: url(~/assets/img/program_details/3.png);
-}
 .program_details_area {
   padding-bottom: 120px;
   padding-top: 120px;
-}
-.single_program {
-  padding: 20px;
-  margin-bottom: 30px;
-  background-position: center center;
-  background-size: cover;
-  .program_inner {
-    background: #fff;
-    padding: 57px 30px;
-
-    span {
-      font-size: 20px;
-      font-weight: 400;
-      font-family: $font2;
-    }
-    h3 {
-      font-family: $font1;
-      font-weight: 400;
-      font-size: 24px;
-      line-height: 30px;
-      color: #e0c9a9;
-      margin-top: 10px;
-      margin-bottom: 10px;
-    }
-    p {
-      font-size: 16px;
-      font-family: $font1;
-    }
-  }
 }
 </style>
