@@ -22,8 +22,6 @@ const formattedTime = computed(() =>
     timeStyle: "short",
   }).format(props.time)
 );
-
-const backgroundImageUrl= computed(()=> `url("${props.backgroundImage}")`);
 </script>
 
 <style lang="scss" scoped>
@@ -34,7 +32,7 @@ const backgroundImageUrl= computed(()=> `url("${props.backgroundImage}")`);
   margin-bottom: 30px;
   background-position: center center;
   background-size: cover;
-  background-image: v-bind(backgroundImageUrl);
+  background-image: v-bind("`url('${backgroundImage}')`");
 }
 
 .program_inner {
