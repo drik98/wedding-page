@@ -1,15 +1,71 @@
+<template>
+  <div class="attending_area">
+    <div class="container">
+      <div class="row">
+        <div class="col-xl-10 offset-xl-1 col-lg-10 offset-lg-1">
+          <div class="main_attending_area">
+            <div class="flower flower_1 d-none d-lg-block">
+              <img src="~/assets/img/flowers.png" alt="" />
+            </div>
+            <div class="flower flower_2 d-none d-lg-block">
+              <img src="~/assets/img/flowers.png" alt="" />
+            </div>
+            <div class="row justify-content-center">
+              <div class="col-xl-7 col-lg-8">
+                <div class="popup_box">
+                  <div class="popup_inner">
+                    <div class="form_heading text-center">
+                      <h3>Möchtest du ein Spiel vorbereiten oder eine Rede halten?</h3>
+                      <p>Dann wende dich bitte entweder per Mail an die Trauzeugen (<a href="mailto:trauzeugen.siewecks@gmail.com?subject=Anfrage an die Trauzeugen">trauzeugen.siewecks@gmail.com</a>) oder nutze die Form.</p>
+                    </div>
+                    <form
+                      action="https://formspree.io/f/xpwaqopp"
+                      method="POST"
+                    >
+                      <div class="row">
+                        <input
+                          type="hidden"
+                          name="_subject"
+                          value="Anfrage via Website"
+                        />
+
+                        <div class="col-xl-12">
+                          <label for="contact-email"> Deine Email: </label>
+                          <input id="contact-email" type="email" name="email" />
+                        </div>
+
+                        <div class="col-xl-12">
+                          <label for="contact-message"> Deine Nachricht: </label>
+                          <textarea
+                            id="contact-message"
+                            name="message"
+                          ></textarea>
+                        </div>
+                        <div class="col-xl-12">
+                          <button type="submit" class="boxed_btn3">Absenden</button>
+                        </div>
+                      </div>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</template>
+
+<style lang="scss" scoped>
+@import "~/assets/scss/responsive.scss";
+@import "~/assets/scss/varriable.scss";
+@import '~/assets/scss/mixins.scss';
+
 .attending_area{
     padding-top: 95px;
     padding-bottom: 280px;
-    &.plus_padding{
-        padding-top: 265px;
-        @media #{$mobile_device} {
-            padding-top: 0;
-        }
-        @media #{$tablet_device} {
-            padding-top: 0;
-        }
-    }
+
     @media #{$mobile_device} {
         padding-top: 0;
         padding-bottom: 80px;
@@ -21,16 +77,22 @@
     .main_attending_area{
         position: relative;
         z-index: 9;
-        // padding-bottom: 130px;
+        
+        .flower img {
+          width: 200px;
+        }
+
         .flower_1{
-            position: absolute;
-            left: 0;
-            top: -120px;
+          position: absolute;
+          top: -240px;
+          transform: rotate(-80deg);
+          left: 150px;
         }
         .flower_2{
-            position: absolute;
-            right: 30px;
-            bottom: -120px;
+          position: absolute;
+          right: 150px;
+          bottom: -240px;
+          transform: rotate(100deg);
         }
         .popup_box{
             background: #fff;
@@ -160,3 +222,4 @@
         }
     }
 }
+</style>
