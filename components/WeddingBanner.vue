@@ -2,7 +2,7 @@
   <div class="banner_area">
     <div class="banner_area_inner overlay">
       <div class="banner_text text-center">
-        <img src="~/assets/img/flowers_circle.png" alt="" class="flowers" />
+        <img src="~/assets/img/decoration/flowers_circle.png" alt="" class="flowers" />
         <div class="text_inner">
           <h4>{{ formattedDate }}</h4>
           <h3>Anna & Hendrik</h3>

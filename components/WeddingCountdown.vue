@@ -87,7 +87,7 @@ const countdown = computed(() => {
 @import "~/assets/scss/varriable.scss";
 
 .counter_bg {
-  background-image: url(~/assets/img/counter_bg/counter_bg.png);
+  background-image: url(~/assets/img/counter/counter_bg.png);
 }
 .countdown_area {
   padding: 35px 35px 50px 35px;

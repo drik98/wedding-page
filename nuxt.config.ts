@@ -13,16 +13,11 @@ export default defineNuxtConfig({
 
   css: [
     "~/assets/css/bootstrap.min.css",
-    "~/assets/css/owl.carousel.min.css",
     "~/assets/css/magnific-popup.css",
     "~/assets/css/font-awesome.min.css",
     "~/assets/css/themify-icons.css",
-    "~/assets/css/nice-select.css",
-    "~/assets/css/flaticon.css",
-    "~/assets/css/flaticon.css",
     "~/assets/css/gijgo.css",
-    "~/assets/css/slicknav.css",
-    "~/assets/scss/style.scss",
+    "~/assets/scss/theme-default.scss",
   ],
 
   typescript: {

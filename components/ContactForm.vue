@@ -23,7 +23,7 @@
           <textarea id="contact-message" name="message"></textarea>
         </div>
         <div class="col-xl-12">
-          <button type="submit" class="boxed_btn3">Absenden</button>
+          <button type="submit">Absenden</button>
         </div>
       </div>
     </form>
@@ -32,10 +32,27 @@
 
 <style lang="scss" scoped>
 @import "~/assets/scss/varriable.scss";
+@import "~/assets/scss/mixins.scss";
+@import "~/assets/scss/responsive.scss";
 
-.boxed-btn3 {
+button {
   width: 100%;
   text-transform: capitalize;
+  cursor: pointer;
+  background: #e0c9a9;
+  padding: 9px 26px;
+  margin-bottom: 0;
+  font-size: 20px;
+  color: #fff;
+  @include transition(0.5s);
+  display: inline-block;
+  &:hover {
+    background: #faf0f0;
+    color: #e0c9a9;
+  }
+  @media #{$tablet_device} {
+    padding: 9px 16px;
+  }
 }
 input {
   width: 100%;

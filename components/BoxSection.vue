@@ -5,10 +5,10 @@
         <div class="col-xl-10 offset-xl-1 col-lg-10 offset-lg-1">
           <div class="box_content">
             <div class="flower flower_top d-none d-lg-block">
-              <img src="~/assets/img/flowers.png" alt="" />
+              <img src="~/assets/img/decoration/flowers.png" alt="" />
             </div>
             <div class="flower flower_bottom d-none d-lg-block">
-              <img src="~/assets/img/flowers.png" alt="" />
+              <img src="~/assets/img/decoration/flowers.png" alt="" />
             </div>
             <div class="row justify-content-center">
               <div class="col-xl-7 col-lg-8">

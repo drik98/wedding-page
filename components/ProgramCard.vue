@@ -4,7 +4,7 @@
       <span>{{ formattedTime }}</span>
       <h3>{{ title }}</h3>
       <p>{{ description }}</p>
-      <img src="~/assets/img/program_details/ornaments.png" alt="" />
+      <img src="~/assets/img/decoration/ornaments.png" alt="" />
     </div>
   </div>
 </template>
