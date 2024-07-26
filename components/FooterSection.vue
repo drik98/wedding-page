@@ -59,6 +59,7 @@ const currentYear = computed(() => new Date().getFullYear());
     li {
       display: inline-block;
       a {
+        text-decoration: none;
         font-size: 15px;
         font-family: $font1;
         margin: 0 27px;

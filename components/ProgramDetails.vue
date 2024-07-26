@@ -14,9 +14,14 @@
         <BaseCard 
           background-image="/img/program/2.png"
           title="Freie Trauung"
-          description="Die freie Trauung ist unser absolutes Highlight. Sie findet an der Location &quot;La Seigneurie&quot; in Raeren statt. Wir freuen uns darauf vor allen unseren Freunden und Familie uns unsere Eheversprechen zu geben."
           :time="new Date('2024-09-28T16:30+02:00')"
-        />
+        >
+        <template #description>
+          <p>
+            Die freie Trauung ist unser absolutes Highlight. Sie findet an der <a href="#location">Location "La Seigneurie"</a> in Raeren statt. Wir freuen uns darauf vor allen unseren Freunden und Familie uns unsere Eheversprechen zu geben.
+          </p>
+        </template>
+        </BaseCard>
       </div>
       <div class="col-xl-4 col-lg-4">
         <BaseCard 

@@ -5,7 +5,9 @@
         <span v-if="time">{{ formattedTime }}</span>
       </slot>
       <h3>{{ title }}</h3>
-      <p>{{ description }}</p>
+      <slot name="description">
+        <p v-if="description">{{ description }}</p>
+      </slot>
       <img src="~/assets/img/decoration/ornaments.png" alt="" />
     </div>
   </div>
@@ -13,10 +15,10 @@
 
 <script setup lang="ts">
 const props = defineProps<{
+  title: String;
   backgroundImage: String;
   time?: Date;
-  title: String;
-  description: String;
+  description?: String;
 }>();
 
 const formattedTime = computed(() =>
@@ -55,7 +57,7 @@ const formattedTime = computed(() =>
     margin-top: 10px;
     margin-bottom: 10px;
   }
-  p {
+  ::v-deep(p) {
     font-size: 16px;
     font-family: $font1;
   }
