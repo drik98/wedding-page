@@ -7,7 +7,7 @@
     :formatted-date="formattedWeddingDate"
   />
 
-  <LoveStory id="story" />
+  <StoryLine id="story" />
 
   <GallerySection id="gallery" />
 

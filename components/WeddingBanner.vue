@@ -27,7 +27,7 @@ const props = defineProps<{
 .overlay {
   position: relative;
   z-index: 0;
-  background-image: url(~/assets/img/banner/banner.png);
+  background-image: url(~/assets/img/banner/plitvice.jpg);
 }
 .overlay::before {
   position: absolute;
