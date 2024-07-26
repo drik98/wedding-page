@@ -15,6 +15,8 @@
 
   <ContactForm id="contact" />
 
+  <InformationSection id="information" />
+
   <LocationMap id="location" />
 
   <FooterSection />

@@ -12,6 +12,7 @@
                 <li><a href="#gallery">Gallerie</a></li>
                 <li><a href="#program">Programm</a></li>
                 <li><a href="#contact">Kontakt</a></li>
+                <li><a href="#information">Informationen</a></li>
                 <li><a href="#location">Location</a></li>
               </ul>
             </div>

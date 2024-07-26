@@ -1,7 +1,9 @@
 <template>
-  <div class="single_program program_bg_1 text-center">
-    <div class="program_inner">
-      <span>{{ formattedTime }}</span>
+  <div class="base_card program_bg_1 text-center">
+    <div class="base_card_inner">
+      <slot name="sub-title">
+        <span v-if="time">{{ formattedTime }}</span>
+      </slot>
       <h3>{{ title }}</h3>
       <p>{{ description }}</p>
       <img src="~/assets/img/decoration/ornaments.png" alt="" />
@@ -12,7 +14,7 @@
 <script setup lang="ts">
 const props = defineProps<{
   backgroundImage: String;
-  time: Date;
+  time?: Date;
   title: String;
   description: String;
 }>();
@@ -27,7 +29,7 @@ const formattedTime = computed(() =>
 <style lang="scss" scoped>
 @import "~/assets/scss/varriable.scss";
 
-.single_program {
+.base_card {
   padding: 20px;
   margin-bottom: 30px;
   background-position: center center;
@@ -35,7 +37,7 @@ const formattedTime = computed(() =>
   background-image: v-bind("`url('${backgroundImage}')`");
 }
 
-.program_inner {
+.base_card_inner {
   background: #fff;
   padding: 57px 30px;
 

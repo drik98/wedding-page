@@ -5,7 +5,8 @@
       <p class="text-center">
         Hier wird in Zukunft eine Auswahl an Bildern von unserer Hochzeit
         angezeigt.<br/>
-        Falls du Bilder hochladen möchtests, kannst du das sehr gerne über Everlense tun.
+        Falls du Bilder hochladen möchtests oder an der Foto-Challenge teilnehmen willst, 
+        kannst du das sehr gerne über Everlense tun.
       </p>
       <img
         class="qr_code"
