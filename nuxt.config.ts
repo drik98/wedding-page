@@ -8,6 +8,12 @@ export default defineNuxtConfig({
       charset: "utf-8",
       viewport: "width=device-width, initial-scale=1",
       title: "Anna & Hendrik heiraten!",
+      meta: [
+        { name: 'description', content: 'Feiert mit uns die Hochzeit von Hendrik und Anna am 28. September 2024 in Aachen. Entdeckt alle Details zu unserem besonderen Tag, einschließlich Ort, Dresscode, Geschenkideen und mehr auf unserer Hochzeitsseite.' }
+      ],
+      htmlAttrs: {
+        lang: 'de-DE',
+      },
     },
   },
 
