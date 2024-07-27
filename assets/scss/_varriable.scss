@@ -1,10 +1,9 @@
-@import url('https://fonts.googleapis.com/css?family=Muli:300,400,400i,600,600i,700,700i,800,800i,900|Petit+Formal+Script&display=swap');
+@import '@fontsource-variable/mulish';
+@import '@fontsource/petit-formal-script';
+
 // fonts
-$font1:  'Muli', sans-serif; 
+$font1:  'Mulish Variable', sans-serif;
 $font2:  'Petit Formal Script', cursive;
-
-
-
 
 // fonts-size
 
@@ -17,8 +16,6 @@ $theme-color2: #ff5e13;
 
 $gray-color3:#5c5c5c;
 $white_color:#fff;
-
-
 
 $font_1: #666666;
 $font_2: #646464;

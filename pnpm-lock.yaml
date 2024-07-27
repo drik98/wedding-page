@@ -5,6 +5,12 @@ settings:
   excludeLinksFromLockfile: false
 
 dependencies:
+  '@fontsource-variable/mulish':
+    specifier: ^5.0.19
+    version: 5.0.19
+  '@fontsource/petit-formal-script':
+    specifier: ^5.0.20
+    version: 5.0.20
   '@nuxt/eslint':
     specifier: ^0.3.13
     version: 0.3.13(eslint@8.57.0)(typescript@5.5.3)(vite@5.3.4)
@@ -1145,6 +1151,14 @@ packages:
   /@fastify/busboy@2.1.1:
     resolution: {integrity: sha512-vBZP4NlzfOlerQTnba4aqZoMhE/a9HY7HRqoOPaETQcSQuWEIyZMHGfVu6w9wGtGK5fED5qRs2DteVCjOH60sA==}
     engines: {node: '>=14'}
+    dev: false
+
+  /@fontsource-variable/mulish@5.0.19:
+    resolution: {integrity: sha512-yUZdTpgr6HF1OmKU0SUQbiI1ZTbx48ybjZL7tfMwAt07SLA6JD8ax6+oppkqpITrOXKn0hBbWY2RtTxaUq6Bew==}
+    dev: false
+
+  /@fontsource/petit-formal-script@5.0.20:
+    resolution: {integrity: sha512-c0r1efT3UbHlSuC4KjxMRYstAaz+bNWB/QiCGSOyK+mKiq7MGvUoSL0CILPZiMgZC+txhkQh9o12Xvie9Eo+lg==}
     dev: false
 
   /@humanwhocodes/config-array@0.11.14:

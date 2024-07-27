@@ -23,6 +23,8 @@
     "check:types": "nuxt typecheck"
   },
   "dependencies": {
+    "@fontsource-variable/mulish": "^5.0.19",
+    "@fontsource/petit-formal-script": "^5.0.20",
     "@nuxt/eslint": "^0.3.13",
     "bootstrap": "^4.6.2",
     "nuxt": "^3.12.4",
