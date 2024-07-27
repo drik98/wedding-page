@@ -1,18 +1,18 @@
-
-/* 1. Theme default css */
+@import 'bootstrap/dist/css/bootstrap.min.css';
 @import 'varriable';
-html { scroll-behavior: smooth; }
+@import 'mixins.scss';
+
+html { 
+	scroll-behavior: smooth;
+}
 
 body {
-	
 	font-family: $font2;
 	font-weight: normal;
 	font-style: normal;
 	overflow-x: hidden;
-    
 }
 
-@import 'mixins.scss';
 .img {
 	max-width: 100%;
 	@include transition(.3s);
