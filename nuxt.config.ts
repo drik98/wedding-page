@@ -13,7 +13,6 @@ export default defineNuxtConfig({
 
   css: [
     "~/assets/css/bootstrap.min.css",
-    "~/assets/css/themify-icons.css",
     "~/assets/scss/theme-default.scss",
   ],
 
