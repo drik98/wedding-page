@@ -72,7 +72,9 @@ p {
 }
 
 .qr_code {
+  max-width: 80vw;
   width: 10vw;
+  min-width: 10rem;
   margin: 1.5rem 0 0.5rem 0;
 }
 </style>
