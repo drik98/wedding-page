@@ -1,25 +1,25 @@
 <template>
-  <WeddingBanner id="banner" :formatted-date="formattedWeddingDate" />
+  <SectionBanner id="banner" :formatted-date="formattedWeddingDate" />
 
-  <WeddingCountdown
+  <SectionCountdown
     id="countdown"
     :date="weddingDate"
     :formatted-date="formattedWeddingDate"
   />
 
-  <StoryLine id="story" />
+  <SectionStory id="story" />
 
-  <GallerySection id="gallery" />
+  <SectionGallery id="gallery" />
 
-  <ProgramDetails id="program" />
+  <SectionProgram id="program" />
 
-  <ContactForm id="contact" />
+  <SectionContact id="contact" />
 
-  <InformationSection id="information" />
+  <SectionInformation id="information" />
 
-  <LocationMap id="location" />
+  <SectionLocation id="location" />
 
-  <FooterSection />
+  <SectionFooter />
 </template>
 
 <script setup lang="ts">

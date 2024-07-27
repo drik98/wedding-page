@@ -1,5 +1,5 @@
 <template>
-  <section class="location_area">
+  <section class="section_location">
     <div class="location_info">
       <div class="location_inner">
         <div class="location_top text-center">
@@ -44,7 +44,7 @@
 @import "~/assets/scss/responsive.scss";
 @import "~/assets/scss/mixins.scss";
 
-.location_area {
+.section_location {
   padding: 0 50px;
   position: relative;
   @media #{$mobile_device} {

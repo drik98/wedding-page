@@ -1,5 +1,5 @@
 <template>
-  <BoxSection>
+  <BaseBoxSection>
     <template #title
       >Möchtest du ein Spiel vorbereiten oder eine Rede halten?</template
     >
@@ -27,7 +27,7 @@
         </div>
       </div>
     </form>
-  </BoxSection>
+  </BaseBoxSection>
 </template>
 
 <style lang="scss" scoped>

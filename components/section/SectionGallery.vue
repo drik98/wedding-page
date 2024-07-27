@@ -1,5 +1,5 @@
 <template>
-  <BaseSection :hide-decoration="true" class="gallery_area">
+  <BaseSection :hide-decoration="true" class="section_gallery">
     <template #title>Galerie</template>
     <div class="upload_pictures">
       <p class="text-center">
@@ -40,7 +40,7 @@ const images = shallowReadonly([]);
 @import "~/assets/scss/responsive.scss";
 @import "~/assets/scss/varriable.scss";
 
-.gallery_area {
+.section_gallery {
   padding: 0 50px;
   padding-top: 90px;
   @media #{$mobile_device} {

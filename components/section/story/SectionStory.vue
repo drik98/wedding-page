@@ -3,7 +3,7 @@
     <template #title>Unsere Geschichte</template>
     <div class="row">
       <div class="col-xl-4 col-md-6 col-lg-4">
-        <StoryCharacter
+        <SectionStoryCharacter
           title="Der Bräutigam"
           name="Hendrik Schmitz"
           description="Aufgewachsen in Alsdorf, nach dem Studium dann nach Würselen gezogen und schließlich dann
@@ -17,30 +17,30 @@
               alt="Hendrik beim Sonnenuntergang in Conil"
             />
           </template>
-        </StoryCharacter>
+        </SectionStoryCharacter>
       </div>
       <div class="col-xl-4 col-md-6 col-lg-4">
-        <StoryTimeline>
-          <StoryTimelineItem
+        <SectionStoryTimeline>
+          <SectionStoryTimelineItem
             title="Kennenlernen"
             description="Anfang 2020 hatten wir unser erstes Date. Nur ein paar Meter entfernt von unserer späteren ersten gemeinsamen Wohnung."
           />
-          <StoryTimelineItem
+          <SectionStoryTimelineItem
             title="Zusammenziehen"
             description="Nach nur einem Jahr wollten wir nicht mehr ohne den anderen und sind zusammen in die Pontstraße gezogen."
           />
-          <StoryTimelineItem
+          <SectionStoryTimelineItem
             title="Verlobung"
             description="Bei unserem Roadtrip durch Kroatien haben wir uns im September 2023 vor den wunderschönen Wasserfällen bei den Plitvicer Seen verlobt."
           />
-          <StoryTimelineItem
+          <SectionStoryTimelineItem
             title="Hochzeit"
             description="Fast genau ein Jahr nach unserer Verlobung werden wir uns vor Freunden & Familie das Ja-Wort geben."
           />
-        </StoryTimeline>
+        </SectionStoryTimeline>
       </div>
       <div class="col-xl-4 col-lg-4">
-        <StoryCharacter
+        <SectionStoryCharacter
           title="Die Braut"
           name="Anna Sieweck"
           description="Anna ist blöd"
@@ -51,7 +51,7 @@
               alt="Bild von Anna auf dem sie stolz ihren Ring präsentiert."
             />
           </template>
-        </StoryCharacter>
+        </SectionStoryCharacter>
       </div>
     </div>
   </BaseSection>

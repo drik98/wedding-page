@@ -1,6 +1,6 @@
 <template>
-  <div class="banner_area">
-    <div class="banner_area_inner overlay">
+  <div class="section_banner">
+    <div class="section_banner_inner overlay">
       <div class="banner_text text-center">
         <img src="~/assets/img/decoration/flowers_circle.png" alt="" class="flowers" />
         <div class="text_inner">
@@ -41,14 +41,14 @@ const props = defineProps<{
   opacity: 0.2;
 }
 
-.banner_area {
+.section_banner {
   padding: 25px 50px;
   background: #fff;
   @media #{$mobile_device} {
     padding: 10px 20px;
   }
 }
-.banner_area_inner {
+.section_banner_inner {
   height: 800px;
   position: relative;
   z-index: 8;

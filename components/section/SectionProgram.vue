@@ -1,5 +1,5 @@
 <template>
-  <BaseSection class="program_area">
+  <BaseSection class="section_program">
     <template #title>Programm</template>
     <div class="row">
       <div class="col-xl-4 col-lg-4">
@@ -36,7 +36,7 @@
 </template>
 
 <style lang="scss" scoped>
-.program_area {
+.section_program {
   padding-bottom: 120px;
   padding-top: 120px;
 }
