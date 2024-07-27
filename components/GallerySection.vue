@@ -1,6 +1,6 @@
 <template>
   <BaseSection :hide-decoration="true" class="gallery_area">
-    <template #title>Gallerie</template>
+    <template #title>Galerie</template>
     <div class="upload_pictures">
       <p class="text-center">
         Hier wird in Zukunft eine Auswahl an Bildern von unserer Hochzeit
@@ -10,7 +10,8 @@
       </p>
       <img
         class="qr_code"
-        src="https://d1pdemv5rxm2ni.cloudfront.net/104296%2Fmedia-librarynzVDRZ?response-content-disposition=attachment%3B%20filename%3D%22media-librarynzVDRZ%22%3B%20filename%2A%3DUTF-8%27%27media-librarynzVDRZ&amp;Expires=1721996610&amp;Signature=Ms3QXTrY63Ow~FzfvI4yHhrh2DIZU6xUWF5JMkHDetJZCsJCaBMPl1jr1cQOXkzqMGLJCKZ081ziYHj2S6OCq2PglAtiMLb~PfZ816QL4buWMJYFwNazVy0v1giEx34SDdXsMnZWENYWmg7Dkie-o8tuNYT3h1Z9jmU7iEqY6nOkjiBQpFCpDQTTt7wtVIIlBGsg9AYgmJYMOAAQ5kdi-HDUAq7GTNOXo3OQsGPKRVfb7dP-AOXINXDZ7wwtnW1EN~ORDdzweDf3l9Gijb1epgHJy4KigqKVfjYUjWnp1rw2tfZeJFbwB~gT6pLiP1PtHjIY4J-C6kKUmif3Gfbm5g__&amp;Key-Pair-Id=K3GVYHZZ5TCFYR"
+        src="~/assets/img/gallery/everlense_qr.png"
+        alt="QR Code linking to the everlense link underneath"
       />
       <a
           href="https://app.everlense.de/event/zx1icwihN5vfaZLycxJNn"

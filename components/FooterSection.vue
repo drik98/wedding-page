@@ -9,7 +9,7 @@
                 <li><a href="#banner">Start</a></li>
                 <li><a href="#countdown">Countdown</a></li>
                 <li><a href="#story">Unsere Geschichte</a></li>
-                <li><a href="#gallery">Gallerie</a></li>
+                <li><a href="#gallery">Galerie</a></li>
                 <li><a href="#program">Programm</a></li>
                 <li><a href="#contact">Kontakt</a></li>
                 <li><a href="#information">Informationen</a></li>
