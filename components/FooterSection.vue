@@ -29,8 +29,7 @@
             <p class="copy_right text-center">
               <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
               Copyright &copy; {{ currentYear }}
-              All rights reserved | This template is made with
-              <i class="fa fa-heart-o" aria-hidden="true"></i> by
+              All rights reserved | This template is made with ♥ by
               <a href="https://colorlib.com" target="_blank">Colorlib</a>
               <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
             </p>
