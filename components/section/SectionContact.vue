@@ -15,7 +15,7 @@
 
         <div class="col-xl-12">
           <label for="contact-email"> Deine Email: </label>
-          <input id="contact-email" type="email" name="email" />
+          <input id="contact-email" type="email" name="email" autocomplete="on"/>
         </div>
 
         <div class="col-xl-12">
