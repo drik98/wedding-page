@@ -43,7 +43,9 @@
         <SectionStoryCharacter
           title="Die Braut"
           name="Anna Sieweck"
-          description="Anna ist blöd"
+          description="Als &quot;Urkölnerin&quot; und Effzeh-Fan hat sich Anna direkt am Anfang bei ihrem Zukünftigen Ehemann beliebt gemacht.
+          Auch wenn Anfangs die Ansichten im Fußball noch nicht ganz vereinbar waren, hat man mit der Alemannia einen guten Mittelweg gefunden.
+          Begeistert von der Natur als Geografin immer für eine Wanderung zu haben, aber mittlerweile auch beim Formel 1 schauen dabei."
         >
           <template #image>
             <img
