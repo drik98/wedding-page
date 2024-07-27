@@ -15,7 +15,6 @@ export default defineNuxtConfig({
     "~/assets/css/bootstrap.min.css",
     "~/assets/css/magnific-popup.css",
     "~/assets/css/themify-icons.css",
-    "~/assets/css/gijgo.css",
     "~/assets/scss/theme-default.scss",
   ],
 
