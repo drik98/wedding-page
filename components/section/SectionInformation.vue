@@ -13,7 +13,7 @@
       </div>
       <div class="col-xl-4 col-lg-4">
         <BaseCard 
-          background-image="/img/information/catering.jpeg"
+          background-image="/img/information/catering.jpg"
           title="Verpflegung"
           description="Softgetränke, Kaffe, Bier, Sekt & Wein können jederzeit getrunken werden.
           Dazu gibt es noch eine kleine Auswahl an Schnäpsen sowie eine Whiskeybar.
