@@ -6,9 +6,17 @@
         <BaseCard 
           background-image="/img/program/1.png"
           title="Standesamtliche Hochzeit"
-          description="Die standesamtliche Hochzeit findet im Aachener Rathaus im weißen Saal statt. Auch wenn nicht für jeden Platz ist, freuen wir uns über alle, die zum Anstoßen auf dem Marktplatz vorbei kommen."
           :time="new Date('2024-09-28T12:00+02:00')"
-        />
+        >
+        <template #description>
+          <p>
+            Die standesamtliche Hochzeit findet im
+            <a href="https://maps.app.goo.gl/r4xcM34PXLqhdhiT8" target="_blank">Aachener Rathaus</a> 
+            im weißen Saal statt.
+            Auch wenn nicht für jeden Platz ist, freuen wir uns über alle, die zum Anstoßen auf dem Marktplatz vorbei kommen.
+          </p>
+        </template>
+      </BaseCard>
       </div>
       <div class="col-xl-4 col-lg-4">
         <BaseCard 
