@@ -39,7 +39,7 @@ button {
   width: 100%;
   text-transform: capitalize;
   cursor: pointer;
-  background: #e0c9a9;
+  background: var(--theme-color);
   padding: 9px 26px;
   margin-bottom: 0;
   font-size: 20px;
@@ -48,7 +48,7 @@ button {
   display: inline-block;
   &:hover {
     background: #faf0f0;
-    color: #e0c9a9;
+    color: var(--theme-color);
   }
   @media #{$tablet_device} {
     padding: 9px 16px;

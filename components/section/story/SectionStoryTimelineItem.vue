@@ -21,7 +21,7 @@ const props = defineProps<{
     position: absolute;
     height: 40px;
     width: 1px;
-    background: #e0c9a9;
+    background: var(--theme-color);
     left: 50%;
     content: "";
     bottom: -10px;
@@ -36,7 +36,7 @@ const props = defineProps<{
 
 h3 {
   font-size: 24px;
-  color: #e0c9a9;
+  color: var(--theme-color);
   font-weight: 400;
 }
 p {

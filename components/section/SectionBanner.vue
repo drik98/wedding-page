@@ -122,14 +122,14 @@ const props = defineProps<{
     font-size: 16px;
     font-weight: 600;
     font-family: $font1;
-    color: #e0c9a9;
+    color: var(--theme-color);
     margin-top: 5px;
   }
   h3 {
     font-size: 24px;
     font-family: $font2;
     font-weight: 400;
-    color: #e0c9a9;
+    color: var(--theme-color);
     line-height: 46px;
     @media #{$mobile_device} {
       font-size: 18px;
@@ -146,7 +146,7 @@ const props = defineProps<{
     font-size: 18px;
     font-family: $font2;
     font-weight: 400;
-    color: #e0c9a9;
+    color: var(--theme-color);
     @media #{$mobile_device} {
       font-size: 14px;
     }
@@ -159,7 +159,7 @@ const props = defineProps<{
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     border-radius: 50%;
-    border: 1px solid #e0c9a9;
+    border: 1px solid var(--theme-color);
     top: -30px;
     left: -20px;
     z-index: -3;

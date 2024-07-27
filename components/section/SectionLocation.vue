@@ -34,6 +34,7 @@
         allowfullscreen="true"
         loading="lazy"
         referrerpolicy="no-referrer-when-downgrade"
+        title="KERRES - La Seigneurie - Eventlocation - Google Maps"
       ></iframe>
     </div>
   </section>
@@ -82,7 +83,7 @@
     h3 {
       font-size: 36px;
       font-weight: 400;
-      color: #e0c9a9;
+      color: var(--theme-color);
     }
     p {
       color: #727272;
@@ -92,7 +93,7 @@
       margin-bottom: 0;
       font-weight: 400;
       span {
-        color: #e0c9a9;
+        color: var(--theme-color);
       }
     }
     .address_info_container {
@@ -108,7 +109,7 @@
         }
 
         h4 {
-          color: #e0c9a9;
+          color: var(--theme-color);
           font-size: 16px;
           font-family: $font1;
           font-weight: 600;

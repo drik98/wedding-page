@@ -89,7 +89,7 @@ const props = defineProps<{
     font-size: 18px;
     font-weight: 400;
     font-family: $font1;
-    color: #e0c9a9;
+    color: var(--theme-color);
     display: block;
     margin-top: 20px;
     margin-bottom: 10px;

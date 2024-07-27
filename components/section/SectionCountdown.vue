@@ -109,7 +109,7 @@ const countdown = computed(() => {
         font-size: 60px;
         font-family: $font2;
         font-weight: 400;
-        color: #e0c9a9;
+        color: var(--theme-color);
         margin-bottom: 17px;
         @media #{$mobile_device} {
           font-size: 30px;

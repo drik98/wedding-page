@@ -53,7 +53,7 @@ const formattedTime = computed(() =>
     font-weight: 400;
     font-size: 24px;
     line-height: 30px;
-    color: #e0c9a9;
+    color: var(--theme-color);
     margin-top: 10px;
     margin-bottom: 10px;
   }

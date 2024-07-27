@@ -67,7 +67,7 @@ const currentYear = computed(() => new Date().getFullYear());
           margin: 0 5px;
         }
         &:hover {
-          color: #e0c9a9;
+          color: var(--theme-color);
         }
       }
     }
@@ -90,7 +90,7 @@ const currentYear = computed(() => new Date().getFullYear());
       font-size: 14px;
     }
     a {
-      color: #e0c9a9;
+      color: var(--theme-color);
     }
   }
 }

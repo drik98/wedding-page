@@ -79,7 +79,7 @@
       h3 {
         text-align: center;
         font-size: 36px;
-        color: #e0c9a9;
+        color: var(--theme-color);
         @media #{$mobile_device} {
           font-size: 25px;
         }

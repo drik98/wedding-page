@@ -22,6 +22,7 @@ const props = defineProps<{
 <style lang="scss" scoped>
 @import "~/assets/scss/responsive.scss";
 @import '~/assets/scss/mixins.scss';
+@import "~/assets/scss/varriable.scss";
 
 .story_character {
   margin-bottom: 30px;
@@ -57,7 +58,7 @@ const props = defineProps<{
   }
   h3 {
     font-size: 36px;
-    color: #e0c9a9;
+    color: var(--theme-color);
     @media #{$mobile_device} {
       font-size: 30px;
     }
