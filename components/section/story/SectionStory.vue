@@ -8,8 +8,8 @@
           name="Hendrik Schmitz"
           description="Aufgewachsen in Alsdorf, nach dem Studium dann nach Würselen gezogen und schließlich dann
           zusammen mit Anna nach Aachen, wo wir auch gar nicht mehr weg wollen.
-          Durch Anna außerdem die Liebe zum Reisen und Laufen neuentdeckt, aber auch immer für einen
-          gemütlichen Spieleabend, gememeinsames Kochen oder einfach nur ein Abend auf der Couch zu haben."
+          Durch Anna außerdem die Liebe zum Reisen und Laufen neuentdeckt, aber auch immer bereit für einen
+          gemütlichen Spieleabend, gememeinsames Kochen oder einfach nur einen entspannten Abend auf der Couch."
         >
           <template #image>
             <img
