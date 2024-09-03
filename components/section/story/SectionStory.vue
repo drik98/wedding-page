@@ -5,7 +5,7 @@
       <div class="col-xl-4 col-md-6 col-lg-4">
         <SectionStoryCharacter
           title="Der Bräutigam"
-          name="Hendrik Schmitz"
+          :name="groomsName"
           description="Aufgewachsen in Alsdorf, nach dem Studium dann nach Würselen gezogen und schließlich dann
           zusammen mit Anna nach Aachen, wo wir auch gar nicht mehr weg wollen.
           Durch Anna außerdem die Liebe zum Reisen und Laufen neuentdeckt, aber auch immer bereit für einen
@@ -56,3 +56,23 @@
     </div>
   </BaseSection>
 </template>
+
+<script setup lang="ts">
+const props = defineProps<{
+  weddingDate: Date;
+}>();
+
+const currentDate = ref(new Date());
+
+onMounted(() => {
+  setInterval(() => {
+    currentDate.value = new Date();
+  }, 1000);
+});
+
+const groomsName = computed(() => {
+  return currentDate.value.getTime() > props.weddingDate.getTime()
+    ? "Hendrik Sieweck"
+    : "Hendrik Schmitz";
+});
+</script>

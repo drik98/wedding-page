@@ -7,7 +7,7 @@
     :formatted-date="formattedWeddingDate"
   />
 
-  <SectionStory id="story" />
+  <SectionStory id="story" :weddingDate/>
 
   <SectionGallery id="gallery" />
 
